@@ -1,0 +1,16 @@
+readSig.m为主程序，包括读取信号程序、EEMD程序和ICA程序，最终显示EEMD降噪和ICA盲源分离的结果图
+eemd.m为eemd处理子程序
+extrema.m为三次 样条插值子程序
+
+zi_xiangguan.m为自相关函数法求时延tau的子函数
+
+zi_xiangguan_plot.m为绘出自相关函数和时延的关系曲线
+
+cao_methond.m为利用Cao方法计算嵌入维数m的子函数
+
+GP_func.m为利用G-P算法计算关联维数的子函数
+
+lyapunov_xiaoshuju_main.m为利用小数据求lyapunov指数主函数
+
+运行时运行readSig.m主程序，可得到时延tau,嵌入维数m，可计算关联维数
+运行时运行lyapunov_xiaoshuju_main.m主程序，可计算lyapunov指数
